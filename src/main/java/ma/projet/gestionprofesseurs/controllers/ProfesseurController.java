@@ -76,4 +76,19 @@ public class ProfesseurController {
     public List<Professeur> findByDateEmbaucheBetween(@RequestParam @DateTimeFormat(pattern = "yyyy-MM-dd") Date dateDebut, @RequestParam @DateTimeFormat(pattern = "yyyy-MM-dd") Date dateFin) {
         return professeurService.findByDateEmbaucheBetween(dateDebut, dateFin);
     }
+
+    public void test(){
+        Integer num = 22;
+        Integer num2 = 22;
+        Integer num3 = 22;
+        Integer num4 = 22;
+    }
+
+    public void test1(){
+        Integer num = 22;
+        Integer num2 = 22;
+        Integer num3 = 22;
+        Integer num4 = 22;
+    }
+ 
 }
